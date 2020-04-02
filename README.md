@@ -2,20 +2,14 @@
 
 [![GitHub Build Status](https://github.com/cisagov/skeleton-generic/workflows/build/badge.svg)](https://github.com/cisagov/skeleton-generic/actions)
 
-This is a generic skeleton project that can be used to quickly get a
-new [cisagov](https://github.com/cisagov) GitHub project started.
-This skeleton project contains [licensing information](LICENSE), as
-well as [pre-commit hooks](https://pre-commit.com) and
-[GitHub Actions](https://github.com/features/actions) configurations
-appropriate for the major languages that we use.
-
-In many cases you will instead want to use one of the more specific
-skeleton projects derived from this one.
+This is just a repository to serve as a testbed for tinkering with GitHub
+Actions workflows. That way I can specific functionality without cluttering
+up an existing repository.
 
 ## Contributing ##
 
-We welcome contributions!  Please see [here](CONTRIBUTING.md) for
-details.
+I do not see much use for it, but if inclined I welcome contributions!  Please
+see [here](CONTRIBUTING.md) for details.
 
 ## License ##
 
