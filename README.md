@@ -3,8 +3,8 @@
 [![GitHub Build Status](https://github.com/mcdonnnj/actions_playground/workflows/build/badge.svg)](https://github.com/mcdonnnj/actions_playground/actions)
 
 This is just a repository to serve as a testbed for tinkering with GitHub
-Actions workflows. That way I can specific functionality without cluttering
-up an existing repository.
+Actions workflows. That way I can play with specific functionality without
+cluttering up an existing repository.
 
 ## Contributing ##
 
