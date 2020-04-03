@@ -78,10 +78,9 @@ jobs:
           pip install --upgrade --requirement requirements-test.txt
       - name: Find Terraform directories
         run: |
-          for path in [[ find . -type f -iname "*.tf" -exec dirname "{}" \; \
-          | sort -u ]]; do \
-            terraform init -input=false -backend=false "$path" \
-          done
+          for path in [[ find . -type f -iname "*.tf" -exec dirname "{}" \; | \
+            sort -u ]]; do terraform init -input=false -backend=false "$path"; \
+            done
       - name: Initialize Terraform
         run: |
           terraform init -backend=false -input=false
